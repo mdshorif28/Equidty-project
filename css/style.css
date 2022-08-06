@@ -1,0 +1,357 @@
+/* google fonts poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,900&display=swap');
+
+
+/* global css */
+body{
+    font-family: 'Poppins', sans-serif;
+    color: #3d3d3d;
+}
+a{
+    text-decoration: none;
+}
+
+/* Header sections */
+.logo{
+    width: 200px;
+}
+.navbar-nav{
+    margin-left: 70px;
+}
+.navbar-nav .nav-item{
+    margin: 0 7px;
+}
+ .navbar-nav .nav-item .nav-link{
+    color: #3d3d3d;
+    font-size: 18px;
+    font-weight: 500;
+}
+.login-btn{
+    border: 1px solid #924f35;
+    background: #924f35;
+    color: white;
+    padding: 10px 45px;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+}
+.login-btn:hover{
+    background: white;
+    color: #924f35;
+}
+.login-btn .fa-arrow-right{
+    margin-left: 15px;
+}
+.search-form{
+    position: relative;
+    margin-right: 25px;
+}
+.search-form .form-control{
+    border-radius: 0;
+    border: none;
+    border-right: 2px solid #dcdde0;
+    background: transparent;
+    transition: all 0.4s ease-in-out;
+    width: 70px;
+}
+.search-form .fa-magnifying-glass{
+    position: absolute;
+    right: 45px;
+    top: 10px;
+}
+.search-form .form-control:focus {
+    box-shadow: none;
+    border-bottom: 2px solid #dcdde0;
+    border-right: 2px solid #dcdde0;
+    width: 225px;
+}
+
+/* Banner seciton */
+.banner-sention{
+    background: url(../image/banner.png) no-repeat center top;
+    background-size: cover;
+    padding: 230px 0;
+}
+.banner-sention h2{
+    color: #3d3d3d;
+    font-size: 38px;
+    font-weight: 600px;
+    margin-bottom: 20px;
+    line-height: 48px;
+}
+.banner-sention form .form-control{
+    height: 50px;
+    border-radius: 30px;
+    padding: 0 25px;
+    color: #3d3d3d;
+}
+.banner-sention form .form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #95563d;
+    outline: 0;
+    box-shadow: 0 0 0 0rem rgba(13,110,253,.25);
+}
+.banner-sention form .btn-mail{
+    background: transparent;
+    border: 1px solid #95563d;
+    color: #95563d;
+    padding: 12px 35px;
+    border-radius: 30px;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+}
+.banner-sention form .btn-mail:hover{
+    background-color:#3d3d3d;
+    color: white;
+    border: 1px solid #3d3d3d;
+}
+
+
+/* features section */
+.features-area{
+    padding: 75px 0;
+}
+.features-items{
+    text-align: center;
+    padding: 0 40px;
+}
+.features-items img{
+    width: 190px;
+    display: block;
+    margin: 0 auto;
+}
+.features-items h3{
+    font-size: 24px;
+    font-weight: 600;
+    color: #3d3d3d;
+    margin: 15px 0 12px;
+}
+.features-items p{
+    font-size: 16px;
+    color: #646464;
+    font-weight: 500;
+    margin-bottom: 20px;
+    line-height: 26px;
+}
+
+
+/* Graph section */
+.graph-area{
+    padding: 100px 0;
+    background: #3d3d3d;
+}
+.graph-area h2{
+    color: white;
+    font-size: 38px;
+    font-weight: 600px;
+    margin-bottom: 20px;
+    line-height: 48px;
+}
+.graph-list ul{
+    padding: 0;
+}
+.graph-list ul li{
+    list-style: none;
+    line-height: 45px;
+    color: white;
+}
+.graph-list ul li i{
+    background: #924f35;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    border-radius: 50px;
+    margin-right: 12px;
+}
+.graph-area img{
+    float: right;
+}
+
+
+/* Subsribtion section */
+.subscribtion-area{
+    padding: 75px 0 25px;
+}
+.subscribtion-bg{
+    background: url(../image/subscribtion.png) no-repeat center top;
+    background-size: cover;
+    padding: 150px 0;
+    border-radius: 12px;
+}
+.subscribtion-area h2{
+    font-size: 38px;
+    font-weight: 600px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.subscribtion-area form .form-control{
+    font-size: 18px;
+    height: 56px;
+    border-radius: 30px;
+    padding: 0 25px;
+}
+.subscribtion-area form .form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #95563d;
+    outline: 0;
+    box-shadow: 0 0 0 0rem rgba(13,110,253,.25);
+}
+.subscribtion-area form .form-control {
+    font-size: 18px;
+    height: 56px;
+    border-radius: 30px;
+    padding: 0 25px;
+}
+.form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 25%);
+}
+.mail-box{
+    position: relative;
+}
+.mail-box .btn-sent{
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    background: #924f35;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+.mail-box .btn-sent:hover{
+    background-color: #3d3d3d;
+}
+
+
+/* footer section */
+footer{
+    padding: 75px 0 15px;
+}
+footer h3{
+    font-size: 24px;
+    font-weight: 600;
+    color: #3d3d3d;
+    margin-bottom: 20px;
+}
+footer p{
+    font-size: 16px;
+    color: #646464;
+    font-weight: 500;
+    margin-bottom: 20px;
+    line-height: 26px;
+}
+
+
+/* Social media */
+.social-media ul{
+    padding: 0;
+}
+.social-media ul li{
+    list-style: none;
+    display: inline;
+    margin: 0 3px;
+}
+.social-media ul li i{
+    background: #3d3d3d;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 35px;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+.social-media ul li i:hover{
+    background: #95563d;
+}
+
+
+/* Footer menu */
+.footer-menu ul{
+    padding: 0;
+}
+.footer-menu ul li{
+    list-style: none;
+    line-height: 32px;
+}
+.footer-menu ul li a{
+    color: #646464;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+}
+.footer-menu ul li a:hover{
+    color: #95563d;
+}
+
+
+/* contact inpormation */
+.contact-info ul{
+    padding: 0;
+}
+.contact-info ul li{
+    list-style: none;
+    line-height: 32px;
+}
+.contact-info ul li i{
+    margin-right: 10px;
+}
+.contact-info ul li a{
+    color: #646464;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+}
+.contact-info ul li a:hover{
+    color: #95563d;
+}
+
+
+/* footer copyright area */
+.copyright-area{
+    border-top: 1px solid #ededed;
+    padding-top: 25px;
+    margin: 25px 0 10px;
+}
+.copyright-area .footer-logo{
+    width: 160px;
+}
+.copyright-area p{
+    text-align: right;
+    margin: 3px 0 0;
+}
+
+
+@Media (min-width :320px) and (max-width :576px){
+    .navbar-nav{margin: 25px 0;}
+    .search-form{margin: 15px 0 35px;}
+    .search-form .form-control{width: 100%;}
+    .search-form .form-control:focus{width: 100%; border: 2px solid #dcdde0; z-index: 1;}
+    .banner-sention{padding: 90px 0;}
+    .banner-sention h2{font-size: 34px; line-height: 40px; text-align: center;}
+    .banner-sention form .btn-mail{display: block; margin: 0 auto;}
+    .features-items img{width: 150px;}
+    .features-items{margin-bottom: 35px;}
+    .graph-area{padding: 75px 0;}
+    .graph-area h2{font-size: 34px; line-height: 42px; text-align: center;}
+    .graph-list{list-style: none; line-height: 27px; margin-bottom: 20px;}
+    .graph-list ul li{line-height: 38px;}
+    .graph-list ul li i{margin-right: 5px;}
+    .graph-area img {float: initial; width: 75%; display: block; margin: 0 auto;}
+    .subscribtion-bg{padding: 80px 0;}
+    .subscribtion-bg form{padding: 0 20px;}
+    .subscribtion-area h2{font-size: 28px;}
+    .subscribtion-area form .form-control{ padding: 0 20px; font-size: 13px;}
+    .mail-box .btn-sent {top: 14%; right: 2%; padding: 10px 20px; font-size: 14px;}
+    .widget-titel, footer p, .social-media{text-align: center;}
+    footer h3{margin: 20px 0 5px;}
+    .copyright-area .footer-logo {width: 160px; display: block; margin: 0 auto 20px;}
+    .copyright-area p{text-align: center;}
+}
